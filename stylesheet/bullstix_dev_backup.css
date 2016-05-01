@@ -1,7 +1,7 @@
 /*r/bullstix v1 by u/alba7or*/
 html{background:#BA0C2F url(%%h%%) top left no-repeat}
 body{
-margin:245px 10px 10px 10px;
+margin:255px 10px 10px 10px;
 min-width:900px;
 background:#FFF url(%%s%%) top right repeat-y;
 box-shadow:0 0 8px #820019
@@ -37,7 +37,7 @@ border-radius:4px
 #header{
 top:0;left:0;right:0;
 padding:0 10px;
-min-width:900px;height:245px;
+min-width:900px;height:255px;
 background:transparent;
 border-bottom:none;
 }
@@ -612,9 +612,8 @@ margin:0;padding:0;
 border:none;border-radius:0!important
 }
 .footer-parent .bottommenu{background:#F6F6F6;text-align:left}
-.footer-parent .bottommenu:nth-of-type(1){padding:15px 15px 0 75px;border-top:1px solid #E1E1E1}
-.footer-parent .bottommenu:nth-of-type(2){padding:2px 15px 20px 75px}
-.footer-parent .bottommenu-advertise{margin:-23px 0 0 0;padding:5px 0 16px 75px}
+.footer-parent .bottommenu:nth-last-of-type(2){padding:15px 15px 0 75px;border-top:1px solid #E1E1E1}
+.footer-parent .bottommenu:nth-last-of-type(1){padding:2px 15px 20px 75px}
 .footer-parent .bottommenu a{
 font-weight:bold;
 color:#888;
